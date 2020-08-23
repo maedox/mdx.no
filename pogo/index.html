@@ -1,0 +1,27 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>m4edox | Pokémon GO</title>
+  <script>
+    setInterval(() => {
+      const time = document.querySelector('#time')
+      const dt = new Date()
+      const cetTime = dt.toLocaleTimeString({timeZone: 'Europe/Oslo'})
+      const localTime = dt.toLocaleTimeString()
+      time.innerText = (cetTime === localTime)
+        ? 'We are in the same timezone.'
+        : `My time: ${cetTime} (Europe/Oslo)\nYour time: ${localTime}`
+    }, 1000)
+  </script>
+</head>
+<p>
+  Do you want to coordinate lucky eggs for friendship bonus? Message me! </p>
+<p>
+  Discord:
+  <a href="https://discord.gg/RfpRnpG">Join The Silph Road server</a>
+  and find me there as <i>maedox#0998</i> <br/> Reddit:
+  <a href="https://www.reddit.com/user/maedox">/u/maedox</a>
+  <br/> Twitter:
+  <a href="https://twitter.com/maedox">@maedox</a>
+</p>
+
+<div id="time"></div>
