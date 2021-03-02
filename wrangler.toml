@@ -1,0 +1,10 @@
+name = "mdx"
+type = "webpack"
+account_id = "0a9bb051875a127864c19da32e8dc71f"
+workers_dev = true
+route = "mdx.no/*"
+zone_id = "1c6d62f260d462ddc2b36f730a89e3d4"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"

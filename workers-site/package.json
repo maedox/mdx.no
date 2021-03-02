@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "mdx",
+  "version": "1.0.0",
+  "description": "https://mdx.no",
+  "main": "index.js",
+  "author": "Pål Nilsen <paal.nilsen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "~0.0.11"
+  }
+}

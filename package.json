@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "mdx",
+  "version": "1.0.0",
+  "description": "https://mdx.no",
+  "main": "workers-site/index.js",
+  "scripts": {
+    "activate": "./activate_account.sh",
+    "preview": "wrangler preview --watch",
+    "publish": "wrangler publish"
+  },
+  "author": "Pål Nilsen <paal.nilsen@gmail.com>",
+  "license": "MIT"
+}
